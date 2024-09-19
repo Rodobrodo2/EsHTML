@@ -4,6 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+<style>
+        table, th, td {
+          border: 1px solid black;
+          border-collapse: collapse;
+        }
+        th {
+          text-align: left;
+        }
+</style>
 </head>
 <body>
     <h1>Statistica</h1>
@@ -19,36 +28,42 @@
         <p>Felipe ha gli occhi <span style="color:green">verdi</span></p>
     </div>
     <table>
-        <tr>
-            <th>Nome</th>
-            <th>Nazionalità</th>
-            <th>Mestiere</th>
-        </tr>
-        <tr>
-            <td>Franco</td>
-            <td>Italiano</td>
-            <td>Meccanico</td>
-        </tr>
-        <tr>
-            <td>Lois</td>
-            <td>Americana</td>
-            <td>Manager</td>
-        </tr>
-        <tr>
-            <td>Felipe</td>
-            <td>Spagnolo</td>
-            <td>Medico</td>
-        </tr>
-        <tr>
-            <td>Maria</td>
-            <td>Peruviana</td>
-            <td>Casalinga</td>
-        </tr>
-        <tr>
-            <td>Hansel</td>
-            <td>Tedesco</td>
-            <td>Cuoco</td>
-        </tr>
+        <thead>
+            <tr>
+                <th>Nome</th>
+                <th>Nazionalità</th>
+                <th>Mestiere</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Franco</td>
+                <td>Italiano</td>
+                <td>Meccanico</td>
+            </tr>
+            <tr>
+                <td>Lois</td>
+                <td>Americana</td>
+                <td>Manager</td>
+            </tr>
+            <tr>
+                <td>Felipe</td>
+                <td>Spagnolo</td>
+                <td>Medico</td>
+            </tr>
+            <tr>
+                <td>Maria</td>
+                <td>Peruviana</td>
+                <td>Casalinga</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td>Hansel</td>
+                <td>Tedesco</td>
+                <td>Cuoco</td>
+            </tr>
+        </tfoot>
     </table>    
 </body>
 </html>
