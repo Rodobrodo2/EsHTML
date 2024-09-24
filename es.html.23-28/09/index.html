@@ -7,24 +7,33 @@
 </head>
 <body>
     <h1>Inserisci un imput di testo</h1>
+    <form action="upload.asp" method="get">
         <label for="nome">Nome:</label>
         <input type="text" id="nome" name="nome"><br><br>
         <label for="cognome">Cognome:</label>
         <input type="text" id="cognome" name="cognome"><br><br>
+    </form>
     
     <h2>Esempio textarea</h2>
-        <form id="myForm">
+    <form action="upload.asp" method="get">
             Lascia il tuo messaggio: <br>
             <textarea name="My_textarea" rows="5" cols="7"></textarea>
-        </form>
+    </form>
+
     <h2>Radio button</h2>
+    <form action="upload.asp" method="get">
+
         maschio<input type="radio" name="maschio" value="maschio" required>
         femmina<input type="radio" name="femmina" value="femmina" required>
+    </form>
 
     <h2>Checkbox</h2>
+    <form action="upload.asp" method="get">
         Policy & Privacy<input type="checkbox" name="Policy & Privacy" value="Policy & Privacy" required>
-    
+    </form>
     <h2>Submit</h2>
-    <input type="submit" value="Send Request" required>
+    <form action="upload.asp" method="get">
+        <input type="submit" value="Send Request" required>
+    </form>    
 </body>
 </html>
